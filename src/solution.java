@@ -83,7 +83,7 @@ public class solution {
         return isValidBST(root.left, minVal, root.val) && isValidBST(root.right, root.val, maxVal);
     }
 
-    public boolean isValidBST(TreeNode root) {
+    public boolean isValidBST1(TreeNode root) {
         if (root == null) {
             return true;
         }
